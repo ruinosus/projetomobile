@@ -1,0 +1,289 @@
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Game.ico
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\GameThumbnail.png
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\oldGameThumbnail.png
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_0.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_1.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_2.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_0.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_1.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_2.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_0.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_1.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_2.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Overlays\you_died.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Overlays\you_lose.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Overlays\you_win.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Gem.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Die.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Idle.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Run.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Die.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Idle.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Run.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Die.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Idle.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Run.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Die.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Idle.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Run.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Celebrate.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Die.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Idle.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Jump.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Run.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA0.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA1.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA2.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA3.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA4.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA5.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA6.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockB0.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockB1.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\Exit.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\Platform.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Fonts\Hud.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\ExitReached.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\GemCollected.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\MonsterKilled.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\Music.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PlayerFall.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PlayerJump.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PlayerKilled.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PowerUp.xnb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\Music.wma
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Levels\0.txt
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Levels\1.txt
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Levels\2.txt
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.dll.config
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.dll
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.pdb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WindowsPhonePlatformer.dll
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WindowsPhonePlatformer.pdb
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\AppManifest.xaml
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WMAppManifest.xml.g
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\oldGameThumbnail.png
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.xap
+D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\XapCacheFile.xml
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Game.ico
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\GameThumbnail.png
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\oldGameThumbnail.png
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_0.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_1.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_2.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_0.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_1.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_2.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_0.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_1.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_2.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Overlays\you_died.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Overlays\you_lose.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Overlays\you_win.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Gem.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Die.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Idle.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Run.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Die.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Idle.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Run.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Die.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Idle.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Run.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Die.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Idle.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Run.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Celebrate.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Die.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Idle.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Jump.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Run.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA0.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA1.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA2.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA3.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA4.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA5.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA6.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockB0.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockB1.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\Exit.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\Platform.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Fonts\Hud.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\ExitReached.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\GemCollected.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\MonsterKilled.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\Music.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PlayerFall.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PlayerJump.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PlayerKilled.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PowerUp.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\Music.wma
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Levels\0.txt
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Levels\1.txt
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Levels\2.txt
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.dll.config
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.dll
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.pdb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WindowsPhonePlatformer.dll
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WindowsPhonePlatformer.pdb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\AppManifest.xaml
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WMAppManifest.xml.g
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WMAppManifest.xml
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.xap
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\XapCacheFile.xml
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Button\Left.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Button\LeftU.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Button\Right.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Button\RightU.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Game.ico
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\GameThumbnail.png
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\oldGameThumbnail.png
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_0.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_1.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_2.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_0.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_1.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_2.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_0.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_1.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_2.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Overlays\you_died.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Overlays\you_lose.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Overlays\you_win.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Gem.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Die.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Idle.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Run.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Die.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Idle.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Run.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Die.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Idle.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Run.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Die.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Idle.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Run.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Celebrate.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Die.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Idle.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Jump.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Run.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA0.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA1.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA2.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA3.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA4.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA5.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA6.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockB0.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockB1.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\Exit.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\Platform.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Button\Left.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Button\LeftU.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Button\Right.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Button\RightU.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Fonts\Hud.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\ExitReached.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\GemCollected.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\MonsterKilled.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\Music.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PlayerFall.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PlayerJump.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PlayerKilled.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PowerUp.xnb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\Music.wma
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Levels\0.txt
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Levels\1.txt
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Levels\2.txt
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.dll.config
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.dll
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.pdb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WindowsPhonePlatformer.dll
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WindowsPhonePlatformer.pdb
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WMAppManifest.xml
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.xap
+C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\XapCacheFile.xml
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Game.ico
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\GameThumbnail.png
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\oldGameThumbnail.png
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_0.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_1.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_2.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_0.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_1.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_2.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_0.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_1.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_2.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Overlays\you_died.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Overlays\you_lose.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Overlays\you_win.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Gem.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Die.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Idle.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Run.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Die.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Idle.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Run.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Die.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Idle.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Run.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Die.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Idle.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Run.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Celebrate.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Die.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Idle.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Jump.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Player\Run.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA0.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA1.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA2.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA3.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA4.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA5.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockA6.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockB0.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\BlockB1.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\Exit.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Tiles\Platform.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Button\Left.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Button\LeftU.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Button\Right.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sprites\Button\RightU.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Fonts\Hud.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\ExitReached.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\GemCollected.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\MonsterKilled.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\Music.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PlayerFall.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PlayerJump.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PlayerKilled.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\PowerUp.xnb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Sounds\Music.wma
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Levels\0.txt
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Levels\1.txt
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\Content\Levels\2.txt
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.dll.config
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.dll
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.pdb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WindowsPhonePlatformer.dll
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WindowsPhonePlatformer.pdb
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\AppManifest.xaml
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WMAppManifest.xml.g
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\WMAppManifest.xml
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\bin\Windows Phone\Debug\WindowsPhonePlatformer.xap
+D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformer\obj\Windows Phone\Debug\XapCacheFile.xml
