@@ -206,6 +206,9 @@ namespace Platformer
                 case '-':
                     return LoadTile("Platform", TileCollision.Platform);
 
+                // Live gem
+                case 'L':
+                    return LoadGemTile(x, y, TipoGem.Live);
                 // Various enemies
                 case 'A':
                     return LoadEnemyTile(x, y, "MonsterA");
@@ -579,7 +582,7 @@ namespace Platformer
             //  Matrix cameraTransform = Matrix.CreateTranslation(-cameraPositionXAxis, 0.0f, 0.0f);
             Matrix cameraTransform = Matrix.CreateTranslation(-cameraPositionXAxis, -cameraPositionYAxis, 0.0f);
           //  spriteBatch.Begin(SpriteBlendMode.AlphaBlend, SpriteSortMode.Immediate, SaveStateMode.None, cameraTransform);
-            spriteBatch.Begin();
+            spriteBatch.Begin(SpriteSortMode.Immediate, null, null, null, null, null, cameraTransform);
             DrawTiles(spriteBatch);
             foreach (MovableTile tile in movableTiles)
                 tile.Draw(gameTime, spriteBatch);
