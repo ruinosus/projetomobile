@@ -47,7 +47,7 @@ namespace Platformer
             // make sure we don't initialize the Accelerometer twice
             if (isInitialized)
             {
-                throw new InvalidOperationException("Initialize can only be called once");
+                //throw new InvalidOperationException("Initialize can only be called once");
             }
 
 #if WINDOWS_PHONE

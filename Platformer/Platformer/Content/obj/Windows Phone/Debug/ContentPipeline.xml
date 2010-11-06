@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\Gem.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\Gem.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Idle.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Idle.xnb</Output>
+      <Time>2010-11-06T20:09:28.2102861-02:00</Time>
     </Item>
     <Item>
       <Source>Sprites\MonsterA\Run.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Run.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Run.xnb</Output>
+      <Time>2010-11-06T20:09:28.2122863-02:00</Time>
     </Item>
     <Item>
       <Source>Sprites\MonsterB\Idle.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Idle.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Idle.xnb</Output>
+      <Time>2010-11-06T20:09:28.2192867-02:00</Time>
     </Item>
     <Item>
       <Source>Sprites\MonsterB\Run.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Run.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Run.xnb</Output>
+      <Time>2010-11-06T20:09:28.3222925-02:00</Time>
     </Item>
     <Item>
       <Source>Sprites\MonsterC\Idle.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Idle.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Idle.xnb</Output>
+      <Time>2010-11-06T20:09:28.3402936-02:00</Time>
     </Item>
     <Item>
       <Source>Sprites\MonsterC\Run.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Run.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Run.xnb</Output>
+      <Time>2010-11-06T20:09:28.4392992-02:00</Time>
     </Item>
     <Item>
       <Source>Sprites\MonsterD\Idle.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Idle.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Idle.xnb</Output>
+      <Time>2010-11-06T20:09:28.4452996-02:00</Time>
     </Item>
     <Item>
       <Source>Sprites\MonsterD\Run.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Run.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Run.xnb</Output>
+      <Time>2010-11-06T20:09:28.5433052-02:00</Time>
     </Item>
     <Item>
       <Source>Sprites\Player\Celebrate.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\Player\Celebrate.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\Player\Celebrate.xnb</Output>
+      <Time>2010-11-06T20:09:27.902019-02:00</Time>
     </Item>
     <Item>
       <Source>Sprites\Player\Die.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\Player\Die.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\Player\Die.xnb</Output>
+      <Time>2010-11-06T20:09:27.9050192-02:00</Time>
     </Item>
     <Item>
       <Source>Sprites\Player\Idle.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\Player\Idle.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\Player\Idle.xnb</Output>
+      <Time>2010-11-06T20:09:27.9520218-02:00</Time>
     </Item>
     <Item>
       <Source>Sprites\Player\Jump.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\Player\Jump.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\Player\Jump.xnb</Output>
+      <Time>2010-11-06T20:09:27.990024-02:00</Time>
     </Item>
     <Item>
       <Source>Sprites\Player\Run.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\Player\Run.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\Player\Run.xnb</Output>
+      <Time>2010-11-06T20:09:28.09503-02:00</Time>
     </Item>
     <Item>
       <Source>Tiles\BlockA0.png</Source>
@@ -133,7 +133,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockA0.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockA0.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -142,7 +142,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockA1.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockA1.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -151,7 +151,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockA2.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockA2.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -160,7 +160,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockA3.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockA3.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -169,7 +169,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockA4.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockA4.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -178,7 +178,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockA5.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockA5.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -187,7 +187,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockA6.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockA6.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -196,7 +196,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockB0.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockB0.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -205,7 +205,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockB1.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\BlockB1.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -214,7 +214,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\Platform.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\Platform.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -223,7 +223,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_0.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_0.xnb</Output>
       <Time>2010-09-27T09:53:10-03:00</Time>
     </Item>
     <Item>
@@ -232,7 +232,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_1.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_1.xnb</Output>
       <Time>2010-09-27T09:53:10-03:00</Time>
     </Item>
     <Item>
@@ -241,7 +241,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_2.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer0_2.xnb</Output>
       <Time>2010-09-27T09:53:10-03:00</Time>
     </Item>
     <Item>
@@ -250,7 +250,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_0.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_0.xnb</Output>
       <Time>2010-09-27T09:53:10-03:00</Time>
     </Item>
     <Item>
@@ -259,7 +259,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_1.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_1.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -268,7 +268,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_2.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer1_2.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -277,7 +277,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_0.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_0.xnb</Output>
       <Time>2010-09-27T09:53:10-03:00</Time>
     </Item>
     <Item>
@@ -286,7 +286,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_1.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_1.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -295,7 +295,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_2.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Backgrounds\Layer2_2.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -304,7 +304,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Overlays\you_died.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Overlays\you_died.xnb</Output>
       <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
@@ -313,7 +313,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Overlays\you_lose.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Overlays\you_lose.xnb</Output>
       <Time>2010-09-27T09:53:10-03:00</Time>
     </Item>
     <Item>
@@ -322,99 +322,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Overlays\you_win.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Overlays\you_win.xnb</Output>
       <Time>2010-09-27T09:53:10-03:00</Time>
-    </Item>
-    <Item>
-      <Source>Tiles\Exit.png</Source>
-      <Name>Tiles\Exit</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\Exit.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
-    </Item>
-    <Item>
-      <Source>Fonts\Hud.spritefont</Source>
-      <Name>Fonts\Hud</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Fonts\Hud.xnb</Output>
-      <Time>2010-09-27T09:53:10-03:00</Time>
-    </Item>
-    <Item>
-      <Source>Sounds\ExitReached.wma</Source>
-      <Name>Sounds\ExitReached</Name>
-      <Importer>WmaImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\ExitReached.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
-    </Item>
-    <Item>
-      <Source>Sounds\GemCollected.wma</Source>
-      <Name>Sounds\GemCollected</Name>
-      <Importer>WmaImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\GemCollected.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
-    </Item>
-    <Item>
-      <Source>Sounds\MonsterKilled.wma</Source>
-      <Name>Sounds\MonsterKilled</Name>
-      <Importer>WmaImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\MonsterKilled.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
-    </Item>
-    <Item>
-      <Source>Sounds\Music.wma</Source>
-      <Name>Sounds\Music</Name>
-      <Importer>WmaImporter</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\Music.xnb</Output>
-      <Extra>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\Music.wma</Extra>
-      <Time>2010-09-27T09:53:14-03:00</Time>
-    </Item>
-    <Item>
-      <Source>Sounds\PlayerFall.wma</Source>
-      <Name>Sounds\PlayerFall</Name>
-      <Importer>WmaImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\PlayerFall.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
-    </Item>
-    <Item>
-      <Source>Sounds\PlayerJump.wma</Source>
-      <Name>Sounds\PlayerJump</Name>
-      <Importer>WmaImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\PlayerJump.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
-    </Item>
-    <Item>
-      <Source>Sounds\PlayerKilled.wma</Source>
-      <Name>Sounds\PlayerKilled</Name>
-      <Importer>WmaImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\PlayerKilled.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
-    </Item>
-    <Item>
-      <Source>Sounds\Powerup.wma</Source>
-      <Name>Sounds\Powerup</Name>
-      <Importer>WmaImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\Powerup.xnb</Output>
-      <Time>2010-09-27T09:53:12-03:00</Time>
     </Item>
     <Item>
       <Source>Scenes\background.png</Source>
@@ -422,7 +331,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\background.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\background.xnb</Output>
       <Time>2010-11-02T22:13:54.0958581-02:00</Time>
     </Item>
     <Item>
@@ -431,7 +340,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\blank.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\blank.xnb</Output>
       <Time>2010-11-02T22:13:54.1096083-02:00</Time>
     </Item>
     <Item>
@@ -440,7 +349,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\gradient.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\gradient.xnb</Output>
       <Time>2010-11-02T22:13:54.1308586-02:00</Time>
     </Item>
     <Item>
@@ -449,7 +358,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\introscene.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\introscene.xnb</Output>
       <Time>2010-11-02T22:13:54.157109-02:00</Time>
     </Item>
     <Item>
@@ -458,8 +367,26 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\Menu\button.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\Menu\button.xnb</Output>
       <Time>2010-11-02T22:13:54.1683592-02:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\Exit.png</Source>
+      <Name>Tiles\Exit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Tiles\Exit.xnb</Output>
+      <Time>2010-09-27T09:53:12-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Hud.spritefont</Source>
+      <Name>Fonts\Hud</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Fonts\Hud.xnb</Output>
+      <Time>2010-09-27T09:53:10-03:00</Time>
     </Item>
     <Item>
       <Source>Scenes\gamefont.spritefont</Source>
@@ -467,7 +394,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\gamefont.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\gamefont.xnb</Output>
       <Time>2010-11-02T22:13:54.1196084-02:00</Time>
     </Item>
     <Item>
@@ -476,8 +403,126 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\menufont.xnb</Output>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\menufont.xnb</Output>
       <Time>2010-11-02T22:13:54.1733593-02:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\ExitReached.wma</Source>
+      <Name>Sounds\ExitReached</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\ExitReached.xnb</Output>
+      <Time>2010-09-27T09:53:12-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\GemCollected.wma</Source>
+      <Name>Sounds\GemCollected</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\GemCollected.xnb</Output>
+      <Time>2010-09-27T09:53:12-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\MonsterKilled.wma</Source>
+      <Name>Sounds\MonsterKilled</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\MonsterKilled.xnb</Output>
+      <Time>2010-09-27T09:53:12-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Music.wma</Source>
+      <Name>Sounds\Music</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\Music.xnb</Output>
+      <Extra>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\Music.wma</Extra>
+      <Time>2010-09-27T09:53:14-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\PlayerFall.wma</Source>
+      <Name>Sounds\PlayerFall</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\PlayerFall.xnb</Output>
+      <Time>2010-09-27T09:53:12-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\PlayerJump.wma</Source>
+      <Name>Sounds\PlayerJump</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\PlayerJump.xnb</Output>
+      <Time>2010-09-27T09:53:12-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\PlayerKilled.wma</Source>
+      <Name>Sounds\PlayerKilled</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\PlayerKilled.xnb</Output>
+      <Time>2010-09-27T09:53:12-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Powerup.wma</Source>
+      <Name>Sounds\Powerup</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sounds\Powerup.xnb</Output>
+      <Time>2010-09-27T09:53:12-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\star.png</Source>
+      <Name>Sprites\star</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\star.xnb</Output>
+      <Time>2010-11-06T20:08:21.9997742-02:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\MonsterA\Die.png</Source>
+      <Name>Sprites\MonsterA\Die</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Die.xnb</Output>
+      <Time>2010-11-06T20:09:28.2062859-02:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\MonsterB\Die.png</Source>
+      <Name>Sprites\MonsterB\Die</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Die.xnb</Output>
+      <Time>2010-11-06T20:09:28.2162865-02:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\MonsterC\Die.png</Source>
+      <Name>Sprites\MonsterC\Die</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Die.xnb</Output>
+      <Time>2010-11-06T20:09:28.3382935-02:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\MonsterD\Die.png</Source>
+      <Name>Sprites\MonsterD\Die</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Die.xnb</Output>
+      <Time>2010-11-06T20:09:28.4432995-02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -485,10 +530,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Obscurus\Desktop\Platformer\Platformer\Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Obscurus\Desktop\Platformer\Platformer\Content\obj\Windows Phone\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Obscurus\Desktop\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\</OutputDirectory>
+      <RootDirectory>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Content\</RootDirectory>
+      <LoggerRootDirectory>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Content\obj\Windows Phone\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
