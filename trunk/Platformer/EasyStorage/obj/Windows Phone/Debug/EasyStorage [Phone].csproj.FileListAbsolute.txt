@@ -1,0 +1,18 @@
+C:\Users\Obscurus\Desktop\Nova pasta\EasyStorage\bin\Windows Phone\Debug\EasyStorage.dll
+C:\Users\Obscurus\Desktop\Nova pasta\EasyStorage\bin\Windows Phone\Debug\EasyStorage.pdb
+C:\Users\Obscurus\Desktop\Nova pasta\EasyStorage\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Obscurus\Desktop\Nova pasta\EasyStorage\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Obscurus\Desktop\Nova pasta\EasyStorage\obj\Windows Phone\Debug\EasyStorage.dll
+C:\Users\Obscurus\Desktop\Nova pasta\EasyStorage\obj\Windows Phone\Debug\EasyStorage.pdb
+C:\Users\Obscurus\Desktop\Projeto Mobile\EasyStorage\bin\Windows Phone\Debug\EasyStorage.dll
+C:\Users\Obscurus\Desktop\Projeto Mobile\EasyStorage\bin\Windows Phone\Debug\EasyStorage.pdb
+C:\Users\Obscurus\Desktop\Projeto Mobile\EasyStorage\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Obscurus\Desktop\Projeto Mobile\EasyStorage\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Obscurus\Desktop\Projeto Mobile\EasyStorage\obj\Windows Phone\Debug\EasyStorage.dll
+C:\Users\Obscurus\Desktop\Projeto Mobile\EasyStorage\obj\Windows Phone\Debug\EasyStorage.pdb
+C:\Users\Obscurus\Desktop\Platformer\EasyStorage\bin\Windows Phone\Debug\EasyStorage.dll
+C:\Users\Obscurus\Desktop\Platformer\EasyStorage\bin\Windows Phone\Debug\EasyStorage.pdb
+C:\Users\Obscurus\Desktop\Platformer\EasyStorage\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Obscurus\Desktop\Platformer\EasyStorage\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Obscurus\Desktop\Platformer\EasyStorage\obj\Windows Phone\Debug\EasyStorage.dll
+C:\Users\Obscurus\Desktop\Platformer\EasyStorage\obj\Windows Phone\Debug\EasyStorage.pdb
