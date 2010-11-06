@@ -1,5 +1,0 @@
-C:\Users\davrous\Desktop\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformerContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
-D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformerContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
-D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\WindowsPhonePlatformer\WindowsPhonePlatformerContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
-C:\Projetos Visual Studio Mobile\WindowsPhonePlatformer\WindowsPhonePlatformer\WindowsPhonePlatformerContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
-D:\Unibratec\Projeto mobile\projeto\WindowsPhonePlatformer V1.1\WindowsPhonePlatformer\WindowsPhonePlatformerContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache

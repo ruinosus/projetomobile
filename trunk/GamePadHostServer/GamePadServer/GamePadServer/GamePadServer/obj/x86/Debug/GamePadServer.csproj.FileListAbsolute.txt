@@ -1,9 +1,0 @@
-D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\GamePadHostServer\GamePadServer\GamePadServer\GamePadServer\bin\x86\Debug\GameThumbnail.png
-D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\GamePadHostServer\GamePadServer\GamePadServer\GamePadServer\bin\x86\Debug\Content\Font.xnb
-D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\GamePadHostServer\GamePadServer\GamePadServer\GamePadServer\bin\x86\Debug\GamePadServer.exe.config
-D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\GamePadHostServer\GamePadServer\GamePadServer\GamePadServer\bin\x86\Debug\GamePadServer.exe
-D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\GamePadHostServer\GamePadServer\GamePadServer\GamePadServer\bin\x86\Debug\GamePadServer.pdb
-D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\GamePadHostServer\GamePadServer\GamePadServer\GamePadServer\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\GamePadHostServer\GamePadServer\GamePadServer\GamePadServer\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\GamePadHostServer\GamePadServer\GamePadServer\GamePadServer\obj\x86\Debug\GamePadServer.exe
-D:\Unibratec\Projeto mobile\WindowsPhonePlatformerRefresh\WindowsPhonePlatformerRefresh\GamePadHostServer\GamePadServer\GamePadServer\GamePadServer\obj\x86\Debug\GamePadServer.pdb
