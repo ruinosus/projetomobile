@@ -1,9 +1,10 @@
-﻿<xapCache source="D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Platformer.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="06/11/2010 23:41:00">
+﻿<xapCache source="D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Platformer.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="07/11/2010 15:36:40">
   <file source="D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\Background.png" archivePath="Background.png" lastWriteTime="28/09/2010 14:55:56" />
   <file source="D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\GameThumbnail.png" archivePath="GameThumbnail.png" lastWriteTime="28/09/2010 14:47:46" />
-  <file source="D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="02/11/2010 22:06:40" />
+  <file source="D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="07/11/2010 11:59:26" />
   <file source="D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\obj\Windows Phone\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="02/11/2010 22:06:40" />
-  <file source="D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Platformer.dll" archivePath="Platformer.dll" lastWriteTime="06/11/2010 23:40:56" />
+  <file source="D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Platformer.dll" archivePath="Platformer.dll" lastWriteTime="07/11/2010 15:36:36" />
+  <file source="D:\Projeto Mobile\projetomobile\Platformer\EasyStorage\bin\Windows Phone\Debug\EasyStorage.dll" archivePath="EasyStorage.dll" lastWriteTime="02/11/2010 21:43:02" />
   <file source="D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\Gem.xnb" archivePath="Content\Sprites\Gem.xnb" lastWriteTime="06/11/2010 20:03:58" />
   <file source="D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Idle.xnb" archivePath="Content\Sprites\MonsterA\Idle.xnb" lastWriteTime="06/11/2010 20:09:32" />
   <file source="D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterA\Run.xnb" archivePath="Content\Sprites\MonsterA\Run.xnb" lastWriteTime="06/11/2010 20:09:32" />

@@ -9,6 +9,8 @@
 
 #region Using Statements
 using Microsoft.Xna.Framework;
+using System.IO;
+using Platformer.SaveGame;
 #endregion
 
 namespace Platformer
@@ -52,13 +54,29 @@ namespace Platformer
         /// Constructor.
         /// </summary>
         public OptionsMenuScreen()
-            : base("Options")
+            : base("Opcoes")
         {
             // Create our menu entries.
             ungulateMenuEntry = new MenuEntry(string.Empty);
             languageMenuEntry = new MenuEntry(string.Empty);
             frobnicateMenuEntry = new MenuEntry(string.Empty);
             elfMenuEntry = new MenuEntry(string.Empty);
+
+            //if (Global.SaveDevice.FileExists(Global.containerName, Global.fileName_options))
+            //{
+            //    Global.SaveDevice.Load(
+            //        Global.containerName,
+            //        Global.fileName_options,
+            //        stream =>
+            //        {
+            //            using (StreamReader reader = new StreamReader(stream))
+            //            {
+            //                currentLanguage = int.Parse(reader.ReadLine());
+            //                frobnicate = bool.Parse(reader.ReadLine());
+            //                elf = int.Parse(reader.ReadLine());
+            //            }
+            //        });
+            //}
 
             SetMenuEntryText();
 
@@ -89,6 +107,30 @@ namespace Platformer
 
 
         #endregion
+
+        //protected override void OnCancel(PlayerIndex playerIndex)
+        //{
+        //    // make sure the device is ready
+        //    if (Global.SaveDevice.IsReady)
+        //    {
+        //        // save a file asynchronously. this will trigger IsBusy to return true
+        //        // for the duration of the save process.
+        //        Global.SaveDevice.SaveAsync(
+        //            Global.containerName,
+        //            Global.fileName_options,
+        //            stream =>
+        //            {
+        //                using (StreamWriter writer = new StreamWriter(stream))
+        //                {
+        //                    writer.WriteLine(currentLanguage);
+        //                    writer.WriteLine(frobnicate);
+        //                    writer.WriteLine(elf);
+        //                }
+        //            });
+        //    }
+
+        //    base.OnCancel(playerIndex);
+        //}
 
         #region Handle Input
 

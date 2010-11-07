@@ -102,6 +102,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RectangleExtensions.cs" />
+    <Compile Include="SaveGame\Global.cs" />
     <Compile Include="ScreenManager\GameScreen.cs" />
     <Compile Include="ScreenManager\InputState.cs" />
     <Compile Include="ScreenManager\ScreenManager.cs" />
@@ -131,6 +132,10 @@
     <Content Include="GameThumbnail.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\EasyStorage\EasyStorage [Phone].csproj">
+      <Project>{4EC79015-DC64-46BC-A7DD-28489F2D6761}</Project>
+      <Name>EasyStorage [Phone]</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Content\Content.contentproj">
       <Project>{2FDB7EF3-D3C4-47A3-8E75-C901A05B8574}</Project>
       <Name>Content</Name>

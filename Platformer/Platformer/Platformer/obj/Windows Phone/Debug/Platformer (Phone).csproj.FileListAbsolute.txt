@@ -140,6 +140,8 @@ D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Pho
 D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterB\Die.xnb
 D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterC\Die.xnb
 D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Sprites\MonsterD\Die.xnb
+D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\EasyStorage.dll
+D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\EasyStorage.pdb
 D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Platformer.xap
 D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\obj\Windows Phone\Debug\XapCacheFile.xml
 D:\Projeto Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\AppManifest.xaml
