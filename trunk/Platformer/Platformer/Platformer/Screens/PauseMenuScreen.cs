@@ -71,8 +71,8 @@ namespace Platformer
 
             //ScreenManager.AddScreen(confirmQuitMessageBox, ControllingPlayer);
 
-            LoadingScreen.Load(ScreenManager, true, e.PlayerIndex,
-                               new MainMenuScreen());
+            LoadingScreen.Load(ScreenManager, false, null, new BackgroundScreen(),
+                                                         new MainMenuScreen());
         }
 
         /// <summary>
