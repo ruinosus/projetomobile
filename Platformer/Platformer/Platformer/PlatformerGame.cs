@@ -261,6 +261,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using Microsoft.Xna.Framework.Input.Touch;
 
 namespace Platformer
 {
@@ -349,10 +350,24 @@ namespace Platformer
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+
             // spriteBatch.Begin();
             //  sceneManager.Draw(gameTime);
             // spriteBatch.End();
             base.Draw(gameTime);
+            
+        }
+
+        protected override void Initialize()
+        {
+             TouchPanel.EnabledGestures =
+              GestureType.Hold |
+              GestureType.Tap |
+              GestureType.DoubleTap |
+              GestureType.FreeDrag |
+              GestureType.Flick |
+              GestureType.Pinch;
+            base.Initialize();
         }
 
 
