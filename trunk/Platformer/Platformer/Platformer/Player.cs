@@ -259,7 +259,7 @@ namespace Platformer
             AccelerometerState accelState, 
             DisplayOrientation orientation)
         {
-            // Get analog horizontal movement.
+          /*  // Get analog horizontal movement.
             movement = gamePadState.ThumbSticks.Left.X * MoveStickScale;
 
             // Ignore small movements to prevent running in place.
@@ -297,7 +297,46 @@ namespace Platformer
                 keyboardState.IsKeyDown(Keys.Space) ||
                 keyboardState.IsKeyDown(Keys.Up) ||
                 keyboardState.IsKeyDown(Keys.W) ||
-                touchState.AnyTouch();
+                touchState.AnyTouch();*/
+
+            while (TouchPanel.IsGestureAvailable)
+            {
+                // read the next gesture from the queue
+                GestureSample gesture = TouchPanel.ReadGesture();
+
+                // we can use the type of gesture to determine our behavior
+                switch (gesture.GestureType)
+                {
+                    // on taps, we change the color of the selected sprite
+                    case GestureType.Tap:
+                    case GestureType.DoubleTap:
+                       isJumping = true;
+                        break;
+
+                    // on holds, if no sprite is selected, we add a new sprite at the
+                    // hold position and make it our selected sprite. otherwise we
+                    // remove our selected sprite.
+                    case GestureType.Hold:
+                       
+                        break;
+
+                    // on drags, we just want to move the selected sprite with the drag
+                    case GestureType.FreeDrag:
+                       
+                        break;
+
+                    // on flicks, we want to update the selected sprite's velocity with
+                    // the flick velocity, which is in pixels per second.
+                    case GestureType.Flick:
+                      
+                        break;
+
+                    // on pinches, we want to scale the selected sprite
+                    case GestureType.Pinch:
+                       
+                        break;
+                }
+            }
         }
 
         /// <summary>
