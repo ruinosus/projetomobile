@@ -32,7 +32,7 @@ namespace Platformer
         private AnimationPlayer sprite;
         private int lives;
         private const int totalInitialLives = 3;
-
+        bool pressed;
         private int score;
         public int Score
         {
@@ -97,7 +97,7 @@ namespace Platformer
         Vector2 velocity;
 
         // Constants for controling horizontal movement
-        private const float MoveAcceleration = 13000.0f;
+        private const float MoveAcceleration = 700f;
         private const float MaxMoveSpeed = 1750.0f;
         private const float GroundDragFactor = 0.48f;
         private const float AirDragFactor = 0.58f;
@@ -127,7 +127,8 @@ namespace Platformer
         /// Current user movement input.
         /// </summary>
         private float movement;
-
+        float fingerX = 0, fingerY = 0;
+        float fingerXOld = 0, fingerYOld = 0;
         // Jumping state
         private bool isJumping;
         private bool wasJumping;
@@ -145,6 +146,17 @@ namespace Platformer
                 int top = (int)Math.Round(Position.Y - sprite.Origin.Y) + localBounds.Y;
 
                 return new Rectangle(left, top, localBounds.Width, localBounds.Height);
+            }
+        }
+
+        public Rectangle FingerRectangle
+        {
+            get
+            {
+                int left = (int)Math.Round(fingerX - sprite.Origin.X) + localBounds.X;
+                int top = (int)Math.Round(fingerX - sprite.Origin.Y) + localBounds.Y;
+
+                return new Rectangle(left, top, localBounds.Width, 720);
             }
         }
 
@@ -216,30 +228,42 @@ namespace Platformer
         /// we need to reverse our motion when the orientation is in the LandscapeRight orientation.
         /// </remarks>
         public void Update(
-            GameTime gameTime, 
-            KeyboardState keyboardState, 
-            GamePadState gamePadState, 
-            TouchCollection touchState, 
+            GameTime gameTime,
+            KeyboardState keyboardState,
+            GamePadState gamePadState,
+            TouchCollection touchState,
             AccelerometerState accelState,
             DisplayOrientation orientation)
         {
+            velocity.X = 0;
+            movement = 0;
             GetInput(keyboardState, gamePadState, touchState, accelState, orientation);
-
-            ApplyPhysics(gameTime);
-
-            if (IsPoweredUp)
-                powerUpTime = Math.Max(0.0f, powerUpTime - (float)gameTime.ElapsedGameTime.TotalSeconds);
-
-            if (IsAlive && IsOnGround)
+            if (!BoundingRectangle.Intersects(FingerRectangle) )
             {
-                if (Math.Abs(Velocity.X) - 0.02f > 0)
+                ApplyPhysics(gameTime);
+
+
+
+                if (IsAlive && IsOnGround)
                 {
-                    sprite.PlayAnimation(runAnimation);
+
+                    if (Math.Abs(Velocity.X) - 0.2f > 0)
+                    {
+                        sprite.PlayAnimation(runAnimation);
+                    }
+                    else
+                    {
+                        sprite.PlayAnimation(idleAnimation);
+                    }
                 }
-                else
-                {
-                    sprite.PlayAnimation(idleAnimation);
-                }
+            }
+            else if (isOnGround)
+                sprite.PlayAnimation(idleAnimation);
+            else
+            {
+                ApplyPhysics(gameTime);
+
+
             }
 
             // Clear input.
@@ -253,90 +277,123 @@ namespace Platformer
         /// Gets player horizontal movement and jump commands from input.
         /// </summary>
         private void GetInput(
-            KeyboardState keyboardState, 
-            GamePadState gamePadState, 
+            KeyboardState keyboardState,
+            GamePadState gamePadState,
             TouchCollection touchState,
-            AccelerometerState accelState, 
+            AccelerometerState accelState,
             DisplayOrientation orientation)
         {
-          /*  // Get analog horizontal movement.
-            movement = gamePadState.ThumbSticks.Left.X * MoveStickScale;
+            //override digital if touch input is found
+            // Process touch locations.
+            bool touchJump = false;
+
+            //#if FakeAccelerometer
+            //            touchJump = Accelerometer.GetState().IsJumping;
+            //#endif
+            //get the state of the touch panel
+            //TouchCollection curTouches = TouchPanel.GetState();
+
+            movement = 0.0f;
+            // Process touch locations
+            pressed = false;
+            //esquerda = false;
+
+            foreach (TouchLocation location in touchState)
+            {
+                switch (location.State)
+                {
+                    case TouchLocationState.Pressed:
+                        {
+                            //fingerXOld = fingerX;
+                            //fingerYOld = fingerY;
+
+                            fingerX = (float)Math.Round(location.Position.Y); ;
+                            fingerY = (float)Math.Round(location.Position.X);
+                            if (fingerX > 0)
+                                pressed = true;
+                            if (fingerY < (BoundingRectangle.X))
+                                touchJump = true;
+                            break;
+                        }
+                    case TouchLocationState.Released:
+                        //Don't care about released state in this demo
+                        break;
+                    case TouchLocationState.Moved:
+                        {
+                            //fingerXOld = fingerX;
+                            //fingerYOld = fingerY;
+
+                            fingerX = (float)Math.Round(location.Position.X); ;
+                            fingerY = (float)Math.Round(location.Position.Y);
+                            if (fingerX > 0)
+                                pressed = true;
+                            //if (!(fingerY > (BoundingRectangle.X - localBounds.Width)))
+                           // if (fingerY < (BoundingRectangle.TopY))
+                            float pY = Position.Y;
+                            float pX = Position.X;
+                            float lY = localBounds.Y;
+                            float lX = localBounds.X;
+                            if ((fingerY+30) < (BoundingRectangle.Y) / 2)
+                          //  (int)Math.Round(Position.Y - sprite.Origin.Y) + localBounds.Y;
+                                touchJump = true;
+                            break;
+                        }
+                }
+
+
+            }
 
             // Ignore small movements to prevent running in place.
-            if (Math.Abs(movement) < 0.5f)
-                movement = 0.0f;
+            //  if (Math.Abs(movement) < 0.5f)
+            movement = 0.0f;
 
-            // Move the player with accelerometer
-            if (Math.Abs(accelState.Acceleration.Y) > 0.10f)
+            //if (fingerX != 0)
+            //{
+            //    if (fingerX >= Position.X)
+            //    {
+            //        //esquerda = false;
+            //        movement = 1.0f;
+            //    }
+            //    else
+            //    {
+            //        //esquerda = true;
+            //        movement = -1.0f;
+            //    }
+            //}
+            if (pressed)
             {
-                // set our movement speed
-                movement = MathHelper.Clamp(-accelState.Acceleration.Y * AccelerometerScale, -1f, 1f);
-
-                // if we're in the LandscapeLeft orientation, we must reverse our movement
-                if (orientation == DisplayOrientation.LandscapeRight)
-                    movement = -movement;
-            }
-
-            // If any digital horizontal movement input is found, override the analog movement.
-            if (gamePadState.IsButtonDown(Buttons.DPadLeft) ||
-                keyboardState.IsKeyDown(Keys.Left) ||
-                keyboardState.IsKeyDown(Keys.A))
-            {
-                movement = -1.0f;
-            }
-            else if (gamePadState.IsButtonDown(Buttons.DPadRight) ||
-                     keyboardState.IsKeyDown(Keys.Right) ||
-                     keyboardState.IsKeyDown(Keys.D))
-            {
-                movement = 1.0f;
-            }
-
-            // Check if the player wants to jump.
-            isJumping =
-                gamePadState.IsButtonDown(JumpButton) ||
-                keyboardState.IsKeyDown(Keys.Space) ||
-                keyboardState.IsKeyDown(Keys.Up) ||
-                keyboardState.IsKeyDown(Keys.W) ||
-                touchState.AnyTouch();*/
-
-            while (TouchPanel.IsGestureAvailable)
-            {
-                // read the next gesture from the queue
-                GestureSample gesture = TouchPanel.ReadGesture();
-
-                // we can use the type of gesture to determine our behavior
-                switch (gesture.GestureType)
+                if (fingerX != 0)
                 {
-                    // on taps, we change the color of the selected sprite
-                    case GestureType.Tap:
-                    case GestureType.DoubleTap:
-                       isJumping = true;
-                        break;
+                    if (fingerX >= Position.X)
+                    {
 
-                    // on holds, if no sprite is selected, we add a new sprite at the
-                    // hold position and make it our selected sprite. otherwise we
-                    // remove our selected sprite.
-                    case GestureType.Hold:
-                       
-                        break;
+                        movement = 1.0f;
+                    }
+                    else
+                    {
 
-                    // on drags, we just want to move the selected sprite with the drag
-                    case GestureType.FreeDrag:
-                       
-                        break;
-
-                    // on flicks, we want to update the selected sprite's velocity with
-                    // the flick velocity, which is in pixels per second.
-                    case GestureType.Flick:
-                      
-                        break;
-
-                    // on pinches, we want to scale the selected sprite
-                    case GestureType.Pinch:
-                       
-                        break;
+                        movement = -1.0f;
+                    }
                 }
             }
+            else
+            {
+                if (fingerX != 0)
+                {
+                    if (fingerX >= Position.X)
+                    {
+
+                        movement = 1.0f;
+                    }
+                    else
+                    {
+
+                        movement = -1.0f;
+                    }
+                }
+            }
+            // Check if the player wants to jump.
+            isJumping = touchJump;
         }
 
         /// <summary>
@@ -350,7 +407,16 @@ namespace Platformer
 
             // Base velocity is a combination of horizontal movement control and
             // acceleration downward due to gravity.
-            velocity.X += movement * MoveAcceleration * elapsed;
+            //   velocity.X = fingerX;
+
+            // if (fingerX < 0)
+            //   fingerX *= -1;
+            velocity.X = 0;
+            // velocity.X = movement * fingerX;
+            //if (esquerda)
+            //    movement = -1.0f;
+            velocity.X = movement * MoveAcceleration;
+            // velocity.X += fingerX * movement;
             velocity.Y = MathHelper.Clamp(velocity.Y + GravityAcceleration * elapsed, -MaxFallSpeed, MaxFallSpeed);
 
             velocity.Y = DoJump(velocity.Y, gameTime);
@@ -365,11 +431,15 @@ namespace Platformer
             velocity.X = MathHelper.Clamp(velocity.X, -MaxMoveSpeed, MaxMoveSpeed);
 
             // Apply velocity.
-            Position += velocity * elapsed;
-            Position = new Vector2((float)Math.Round(Position.X), (float)Math.Round(Position.Y));
+            //   if ((float)Math.Round(fingerX) != (float)Math.Round(position.X))
+            {
+                Position += velocity * elapsed;
 
+                
+            }
+            Position = new Vector2((float)Math.Round(Position.X), (float)Math.Round(Position.Y));
             // If the player is now colliding with the level, separate them.
-            HandleCollisions();
+             HandleCollisions();
 
             // If the collision stopped us from moving, reset the velocity to zero.
             if (Position.X == previousPosition.X)

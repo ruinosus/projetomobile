@@ -214,10 +214,10 @@
       <Name>0</Name>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Levels\2.txt">
+    <Content Include="Levels\2.txt">
       <Name>2</Name>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </Content>
     <Compile Include="Overlays\you_died.png">
       <Name>you_died</Name>
       <Importer>TextureImporter</Importer>
