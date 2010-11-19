@@ -301,7 +301,7 @@ namespace Platformer
             graphics = new GraphicsDeviceManager(this);
             graphics.PreferredBackBufferWidth = BackBufferWidth;
             graphics.PreferredBackBufferHeight = BackBufferHeight;
-
+            graphics.ApplyChanges();
             Content.RootDirectory = "Content";
 
             // Framerate differs between platforms.
