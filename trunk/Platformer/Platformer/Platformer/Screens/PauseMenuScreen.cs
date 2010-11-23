@@ -11,6 +11,7 @@
 using Microsoft.Xna.Framework;
 using System.IO;
 using System.Xml.Serialization;
+using Platformer.SaveGame;
 #endregion
 
 namespace Platformer
@@ -21,7 +22,7 @@ namespace Platformer
     /// </summary>
     class PauseMenuScreen : MenuScreen
     {
-       // public readonly XmlSerializer serializer = new XmlSerializer(typeof(SaveGameData));
+        // public readonly XmlSerializer serializer = new XmlSerializer(typeof(SaveGameData));
 
         #region Initialization
 
@@ -40,7 +41,7 @@ namespace Platformer
             MenuEntry resumeGameMenuEntry = new MenuEntry("Voltar ao jogo");
             MenuEntry saveGameMenuEntry = new MenuEntry("Salvar o jogo");
             MenuEntry quitGameMenuEntry = new MenuEntry("Sair");
-            
+
             // Hook up menu event handlers.
             resumeGameMenuEntry.Selected += OnCancel;
             saveGameMenuEntry.Selected += SalvarGameMenuEntrySelected;
@@ -80,9 +81,9 @@ namespace Platformer
         /// </summary>
         void SalvarGameMenuEntrySelected(object sender, PlayerIndexEventArgs e)
         {
-           
+
             SaveGame();
-           
+
         }
         /// <summary>
         /// Event handler for when the user selects ok on the "are you sure
@@ -91,7 +92,7 @@ namespace Platformer
         /// </summary>
         void ConfirmQuitMessageBoxAccepted(object sender, PlayerIndexEventArgs e)
         {
-            
+
             LoadingScreen.Load(ScreenManager, false, null, new BackgroundScreen(),
                                                            new MainMenuScreen());
         }
@@ -122,23 +123,30 @@ namespace Platformer
             // serialize out some XML data
             try
             {
-               // Global.SaveDevice.Save("testeSave", Global.fileName1, SerializeTest);
+                // if (Global.SaveDevice.FileExists(Global.containerName, Global.fileName_options))
+                {
+                    // save a file asynchronously. this will trigger IsBusy to return true
+                    // for the duration of the save process.
+                    Global.SaveDevice.Save(
+                        Global.containerName,
+                        Global.fileName_options,
+                        stream =>
+                        {
+                            using (StreamWriter writer = new StreamWriter(stream))
+                            {
+                                writer.WriteLine(Global.Lives);
+                                writer.WriteLine(Global.Score);
+                                writer.WriteLine(Global.ActualLevel);
+                            }
+                        });
+                }
+
             }
             catch
             {
             }
         }
 
-        private void SerializeTest(Stream stream)
-        {
-            //Global.saveData.lives = Global.jogador.Lives;
-            //Global.saveData.score = Global.jogador.Score;
-            //   Global.saveData.score = score;
-            //   Global.saveData.doIHaveTheKey = doIHaveTheKey;
 
-          //  serializer.Serialize(stream, Global.saveData);
-        }
-
-        
     }
 }

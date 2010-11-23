@@ -18,6 +18,7 @@ using Microsoft.Xna.Framework.Media;
 
 using System.IO;
 using Microsoft.Xna.Framework.Input.Touch;
+using Platformer.SaveGame;
 
 #endregion
 
@@ -164,6 +165,9 @@ namespace Platformer
                 level.Update(gameTime, keyboardState, gamePadState, touchState,
                         accelerometerState, ScreenManager.Game.Window.CurrentOrientation);
                 level.Player.Score = this.score;
+                Global.Score = this.score;
+                Global.Lives = level.Player.Lives;
+                Global.ActualLevel = levelIndex;
                 //Global.saveData.lives = level.Player.Lives;
                 //Global.saveData.score = level.Player.Score;
                 //  base.Update(gameTime);
@@ -308,7 +312,15 @@ namespace Platformer
             // Load the level.
             string levelPath = string.Format("Content/Levels/{0}.txt", levelIndex);
             using (Stream fileStream = TitleContainer.OpenStream(levelPath))
-                level = new Level(serviceProvider, fileStream, levelIndex, score,lives);
+            {
+                if (Global.IsLoaded)
+                {
+                     level = new Level(serviceProvider, fileStream, Global.ActualLevel, Global.Score, Global.Lives);
+                   
+                    Global.IsLoaded = false;
+                }else
+                    level = new Level(serviceProvider, fileStream, levelIndex, score, lives);
+            }
         }
 
         private void ReloadCurrentLevel()

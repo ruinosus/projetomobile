@@ -14,7 +14,7 @@ namespace Platformer
         public PressStartScreen()
             : base("")
         {
-            MenuEntry startMenuEntry = new MenuEntry("Press A to start");
+            MenuEntry startMenuEntry = new MenuEntry("Inicio");
             startMenuEntry.Selected += StartMenuEntrySelected;
             MenuEntries.Add(startMenuEntry);
         }
