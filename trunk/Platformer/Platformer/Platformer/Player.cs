@@ -156,7 +156,7 @@ namespace Platformer
                 int left = (int)Math.Round(fingerX - sprite.Origin.X) + localBounds.X;
                 int top = (int)Math.Round(fingerX - sprite.Origin.Y) + localBounds.Y;
 
-                return new Rectangle(left, top, localBounds.Width, 720);
+                return new Rectangle(left, top, localBounds.Width, 100000);
             }
         }
 
@@ -242,8 +242,6 @@ namespace Platformer
             {
                 ApplyPhysics(gameTime);
 
-
-
                 if (IsAlive && IsOnGround)
                 {
 
@@ -262,8 +260,6 @@ namespace Platformer
             else
             {
                 ApplyPhysics(gameTime);
-
-
             }
 
             // Clear input.
@@ -333,9 +329,9 @@ namespace Platformer
                             float pX = Position.X;
                             float lY = localBounds.Y;
                             float lX = localBounds.X;
-                            if ((fingerY+30) < (BoundingRectangle.Y) / 2)
+                            if ((fingerY+30) < (BoundingRectangle.Y) )
                           //  (int)Math.Round(Position.Y - sprite.Origin.Y) + localBounds.Y;
-                                touchJump = true;
+                                touchJump = true;                          
                             break;
                         }
                 }
@@ -360,36 +356,50 @@ namespace Platformer
             //        movement = -1.0f;
             //    }
             //}
-            if (pressed)
+            //if (pressed)
+            //{
+            //    if (fingerX != 0)
+            //    {
+            //        if (fingerX >= Position.X)
+            //        {
+
+            //            movement = 1.0f;
+            //        }
+            //        else
+            //        {
+
+            //            movement = -1.0f;
+            //        }
+            //    }
+            //}
+            //else
+            //{
+            //    if (fingerX != 0)
+            //    {
+            //        if (fingerX >= Position.X)
+            //        {
+
+            //            movement = 1.0f;
+            //        }
+            //        else
+            //        {
+
+            //            movement = -1.0f;
+            //        }
+            //    }
+            //}
+
+            if (fingerX != 0)
             {
-                if (fingerX != 0)
+                if (fingerX >= Position.X)
                 {
-                    if (fingerX >= Position.X)
-                    {
 
-                        movement = 1.0f;
-                    }
-                    else
-                    {
-
-                        movement = -1.0f;
-                    }
+                    movement = 1.0f;
                 }
-            }
-            else
-            {
-                if (fingerX != 0)
+                else
                 {
-                    if (fingerX >= Position.X)
-                    {
 
-                        movement = 1.0f;
-                    }
-                    else
-                    {
-
-                        movement = -1.0f;
-                    }
+                    movement = -1.0f;
                 }
             }
             // Check if the player wants to jump.
