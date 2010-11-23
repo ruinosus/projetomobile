@@ -202,6 +202,12 @@ namespace Platformer
                 case 'P':
                     return LoadGemTile(x, y, TipoGem.PowerUp);
 
+                // Power-down gem
+                case 'F':
+                    return LoadGemTile(x, y, TipoGem.PowerDown);
+                case 'H':
+                    return LoadGemTile(x, y, TipoGem.Dead);
+
                 // Floating platform
                 case '-':
                     return LoadTile("Platform", TileCollision.Platform);
