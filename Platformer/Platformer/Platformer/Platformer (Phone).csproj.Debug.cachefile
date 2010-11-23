@@ -40,6 +40,11 @@ Content\Scenes\gradient.xnb
 Content\Scenes\introscene.xnb
 Content\Scenes\Menu\button.xnb
 Content\Tiles\Exit.xnb
+Content\Sprites\star.xnb
+Content\Sprites\MonsterA\Die.xnb
+Content\Sprites\MonsterB\Die.xnb
+Content\Sprites\MonsterC\Die.xnb
+Content\Sprites\MonsterD\Die.xnb
 Content\Fonts\Hud.xnb
 Content\Scenes\gamefont.xnb
 Content\Scenes\menufont.xnb
@@ -51,11 +56,6 @@ Content\Sounds\PlayerFall.xnb
 Content\Sounds\PlayerJump.xnb
 Content\Sounds\PlayerKilled.xnb
 Content\Sounds\Powerup.xnb
-Content\Sprites\star.xnb
-Content\Sprites\MonsterA\Die.xnb
-Content\Sprites\MonsterB\Die.xnb
-Content\Sprites\MonsterC\Die.xnb
-Content\Sprites\MonsterD\Die.xnb
 Content\Sounds\Music.wma
 Content\Levels\2.txt
 Content\Levels\0.txt

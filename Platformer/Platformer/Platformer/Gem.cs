@@ -18,7 +18,9 @@ namespace Platformer
     {
         Normal,
         PowerUp,
-        Live
+        Live,
+        Dead,
+        PowerDown
     }
 
     /// <summary>
@@ -100,6 +102,18 @@ namespace Platformer
                         Color = Color.Red;
                         break;
                     }
+                case TipoGem.Dead:
+                    {
+                        PointValue = 0;
+                        Color = Color.Black;
+                        break;
+                    }
+                case TipoGem.PowerDown:
+                    {
+                        PointValue = -50;
+                        Color = Color.Purple;
+                        break;
+                    }
                 default:
                     break;
             }
@@ -127,6 +141,16 @@ namespace Platformer
                         break;
                     }
                 case TipoGem.Live:
+                    {
+                        texture = Level.Content.Load<Texture2D>("Sprites/Gem");
+                        break;
+                    }
+                case TipoGem.Dead:
+                    {
+                        texture = Level.Content.Load<Texture2D>("Sprites/Gem");
+                        break;
+                    }
+                case TipoGem.PowerDown:
                     {
                         texture = Level.Content.Load<Texture2D>("Sprites/Gem");
                         break;
@@ -184,6 +208,18 @@ namespace Platformer
                     {
                         collectedSound.Play();
                         collectedBy.LiveUp();
+                        break;
+                    }
+                case TipoGem.Dead:
+                    {
+                        collectedSound.Play();
+                        collectedBy.Dead();
+                        break;
+                    }
+                case TipoGem.PowerDown:
+                    {
+                        collectedSound.Play();
+                        collectedBy.PowerDown();
                         break;
                     }
                 default:

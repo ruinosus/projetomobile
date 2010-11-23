@@ -95,15 +95,15 @@ namespace Platformer
             set { velocity = value; }
         }
         Vector2 velocity;
-
+        private bool isPowerDown = false;
         // Constants for controling horizontal movement
-        private const float MoveAcceleration = 700f;
-        private const float MaxMoveSpeed = 1750.0f;
+        private float MoveAcceleration = 700f;
+        private float MaxMoveSpeed = 1750.0f;
         private const float GroundDragFactor = 0.48f;
         private const float AirDragFactor = 0.58f;
 
         // Constants for controlling vertical movement
-        private const float MaxJumpTime = 0.35f;
+        private float MaxJumpTime = 0.35f;
         private const float JumpLaunchVelocity = -3500.0f;
         private const float GravityAcceleration = 3400.0f;
         private const float MaxFallSpeed = 550.0f;
@@ -237,8 +237,21 @@ namespace Platformer
         {
             velocity.X = 0;
             movement = 0;
+            if (!isPowerDown)
+            {
+                MoveAcceleration = 700f;
+                MaxMoveSpeed = 1750.0f;
+                MaxJumpTime = 0.35f;
+            }
+            else
+            {
+                MoveAcceleration = 350f;
+                MaxMoveSpeed = 1750.0f / 2;
+                MaxJumpTime = 0.20f;
+            }
+
             GetInput(keyboardState, gamePadState, touchState, accelState, orientation);
-            if (!BoundingRectangle.Intersects(FingerRectangle) )
+            if (!BoundingRectangle.Intersects(FingerRectangle))
             {
                 ApplyPhysics(gameTime);
 
@@ -324,14 +337,14 @@ namespace Platformer
                             if (fingerX > 0)
                                 pressed = true;
                             //if (!(fingerY > (BoundingRectangle.X - localBounds.Width)))
-                           // if (fingerY < (BoundingRectangle.TopY))
+                            // if (fingerY < (BoundingRectangle.TopY))
                             float pY = Position.Y;
                             float pX = Position.X;
                             float lY = localBounds.Y;
                             float lX = localBounds.X;
-                            if ((fingerY+30) < (BoundingRectangle.Y) )
-                          //  (int)Math.Round(Position.Y - sprite.Origin.Y) + localBounds.Y;
-                                touchJump = true;                          
+                            if ((fingerY + 30) < (BoundingRectangle.Y))
+                                //  (int)Math.Round(Position.Y - sprite.Origin.Y) + localBounds.Y;
+                                touchJump = true;
                             break;
                         }
                 }
@@ -445,11 +458,11 @@ namespace Platformer
             {
                 Position += velocity * elapsed;
 
-                
+
             }
             Position = new Vector2((float)Math.Round(Position.X), (float)Math.Round(Position.Y));
             // If the player is now colliding with the level, separate them.
-             HandleCollisions();
+            HandleCollisions();
 
             // If the collision stopped us from moving, reset the velocity to zero.
             if (Position.X == previousPosition.X)
@@ -708,6 +721,7 @@ namespace Platformer
 
         public void PowerUp()
         {
+            isPowerDown = true;
             powerUpTime = MaxPowerUpTime;
             powerUpSound.Play();
             //MediaPlayer.Play(powerUpSound);
@@ -717,6 +731,23 @@ namespace Platformer
         {
             Lives++;
             // powerUpSound.Play();
+        }
+
+        internal void Dead()
+        {
+            isAlive = false;
+            lives--;
+
+            killedSound.Play();
+
+
+            sprite.PlayAnimation(dieAnimation);
+        }
+
+        internal void PowerDown()
+        {
+            //throw new NotImplementedException();
+            isPowerDown = true;
         }
     }
 }
