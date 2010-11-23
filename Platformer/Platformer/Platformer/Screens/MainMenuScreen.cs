@@ -9,6 +9,8 @@
 
 #region Using Statements
 using Microsoft.Xna.Framework;
+using Platformer.SaveGame;
+using System.IO;
 #endregion
 
 namespace Platformer
@@ -25,19 +27,24 @@ namespace Platformer
         /// Constructor fills in the menu contents.
         /// </summary>
         public MainMenuScreen()
-            : base("Menu")
+            : base("")
         {
             // Create our menu entries.
             MenuEntry playGameMenuEntry = new MenuEntry("Novo Jogo");
-            MenuEntry optionsMenuEntry = new MenuEntry("Opções");
+            MenuEntry loadMenuEntry = new MenuEntry("Carregar");
+            MenuEntry gamby = new MenuEntry("");
 
             // Hook up menu event handlers.
             playGameMenuEntry.Selected += PlayGameMenuEntrySelected;
-            optionsMenuEntry.Selected += OptionsMenuEntrySelected;
+            loadMenuEntry.Selected += LoadMenuEntrySelected;
 
             // Add entries to the menu.
+          
+            MenuEntries.Add(gamby);
+            MenuEntries.Add(gamby);       
+            MenuEntries.Add(gamby);
             MenuEntries.Add(playGameMenuEntry);
-            MenuEntries.Add(optionsMenuEntry);
+            MenuEntries.Add(loadMenuEntry);
         }
 
 
@@ -59,11 +66,37 @@ namespace Platformer
         /// <summary>
         /// Event handler for when the Options menu entry is selected.
         /// </summary>
-        void OptionsMenuEntrySelected(object sender, PlayerIndexEventArgs e)
+        void LoadMenuEntrySelected(object sender, PlayerIndexEventArgs e)
         {
-            ScreenManager.AddScreen(new OptionsMenuScreen(), e.PlayerIndex);
+            LoadGame();
+            LoadingScreen.Load(ScreenManager, true, e.PlayerIndex,
+                              new GameplayScreen());
+            //ScreenManager.AddScreen(new OptionsMenuScreen(), e.PlayerIndex);
         }
 
+
+        public void LoadGame()
+        {
+            if (Global.SaveDevice.FileExists(Global.containerName, Global.fileName_options))
+            {
+                Global.IsLoaded = true;
+                Global.SaveDevice.Load(
+                    Global.containerName,
+                    Global.fileName_options,
+                    stream =>
+                    {
+                        using (StreamReader reader = new StreamReader(stream))
+                        {
+                            Global.Lives = int.Parse(reader.ReadLine());
+                            Global.Score = int.Parse(reader.ReadLine());
+                            Global.ActualLevel = int.Parse(reader.ReadLine());
+                            //lives = int.Parse(reader.ReadLine());
+                            //doIHaveTheKey = bool.Parse(reader.ReadLine());
+                            //score = int.Parse(reader.ReadLine());
+                        }
+                    });
+            }
+        }
 
         /// <summary>
         /// When the user cancels the main menu, we exit the game.
@@ -75,5 +108,7 @@ namespace Platformer
 
 
         #endregion
+
+        
     }
 }

@@ -16,6 +16,7 @@ using Microsoft.Xna.Framework.Audio;
 using System.IO;
 using Microsoft.Xna.Framework.Input.Touch;
 using Microsoft.Xna.Framework.Input;
+using Platformer.SaveGame;
 
 namespace Platformer
 {
@@ -54,7 +55,7 @@ namespace Platformer
 
         public float cameraPositionXAxis;
         public float cameraPositionYAxis;
-
+        public int ActualLevel { get; set; }
         public int Score
         {
             get { return score; }
@@ -412,6 +413,7 @@ namespace Platformer
         {
             // Pause while the player is dead or time is expired.
             // Pause while the player is dead or time is expired.
+           
             if (!Player.IsAlive || TimeRemaining == TimeSpan.Zero)
             {
                 // Still want to perform physics on the player.

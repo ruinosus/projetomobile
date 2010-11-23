@@ -15,7 +15,7 @@ namespace Platformer.SaveGame
         //In this example we're going to save the items in the 'Options' menu.
         //I listed some other examples below but commented them out since we
         //don't need them. YOU CAN HAVE MULTIPLE OF THESE
-        public static string fileName_options = "YourGame_Options";
+        public static string fileName_options = "Platformer_Options";
         //public static string fileName_game = "YourGame_Game";
         //public static string fileName_awards = "YourGame_Awards";
 
@@ -23,6 +23,12 @@ namespace Platformer.SaveGame
         //options on the Xbox. If you name it something like 'MyGameSave' then
         //people will have no idea what it's for and might delete your save.
         //YOU SHOULD ONLY HAVE ONE OF THESE
-        public static string containerName = "YourGame_Save";
+        public static string containerName = "Platformer_Save";
+
+        public static int Score;
+        public static int Lives;
+        public static int ActualLevel;
+        public static bool IsLoaded;
+        
     }
 }

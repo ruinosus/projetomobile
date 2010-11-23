@@ -63,17 +63,31 @@ namespace Platformer
         bool isAlive;
 
         private const float MaxPowerUpTime = 19.0f;
+        private const float MaxPowerDownTime = 19.0f;
         private float powerUpTime;
+        private float powerDownTime;
         public bool IsPoweredUp
         {
             get { return powerUpTime > 0.0f; }
             set { IsPoweredUp = value; }
         }
+
+        public bool IsPoweredDown
+        {
+            get { return powerDownTime > 0.0f; }
+            set { IsPoweredDown = value; }
+        }
         private readonly Color[] poweredUpColors = {
-                               Color.Black,
-                               Color.White,
-                               Color.Black,
-                               Color.White,
+                               Color.Goldenrod,
+                               Color.Gold,
+                               Color.Goldenrod,
+                               Color.Gold,
+                                               };
+        private readonly Color[] poweredDownColors = {
+                               Color.Purple,
+                               Color.Gray,
+                               Color.Purple,
+                               Color.Gray,
                                                };
         private SoundEffect powerUpSound;
         private SoundEffect liveUpSound;
@@ -95,7 +109,7 @@ namespace Platformer
             set { velocity = value; }
         }
         Vector2 velocity;
-        private bool isPowerDown = false;
+
         // Constants for controling horizontal movement
         private float MoveAcceleration = 700f;
         private float MaxMoveSpeed = 1750.0f;
@@ -209,6 +223,7 @@ namespace Platformer
             MediaPlayer.Stop();
             Velocity = Vector2.Zero;
             powerUpTime = 0.0f;
+            powerDownTime = 0.0f;
             isAlive = true;
             sprite.PlayAnimation(idleAnimation);
         }
@@ -237,7 +252,7 @@ namespace Platformer
         {
             velocity.X = 0;
             movement = 0;
-            if (!isPowerDown)
+            if (!IsPoweredDown)
             {
                 MoveAcceleration = 700f;
                 MaxMoveSpeed = 1750.0f;
@@ -251,7 +266,11 @@ namespace Platformer
             }
 
             GetInput(keyboardState, gamePadState, touchState, accelState, orientation);
-            if (!BoundingRectangle.Intersects(FingerRectangle))
+            if (IsPoweredUp)
+                powerUpTime = Math.Max(0.0f, powerUpTime - (float)gameTime.ElapsedGameTime.TotalSeconds);
+            if (IsPoweredDown)
+                powerDownTime = Math.Max(0.0f, powerDownTime - (float)gameTime.ElapsedGameTime.TotalSeconds);
+            if (!BoundingRectangle.Intersects(FingerRectangle) && pressed)
             {
                 ApplyPhysics(gameTime);
 
@@ -269,10 +288,14 @@ namespace Platformer
                 }
             }
             else if (isOnGround)
+            {
                 sprite.PlayAnimation(idleAnimation);
+                pressed = false;
+            }
             else
             {
                 ApplyPhysics(gameTime);
+                pressed = false;
             }
 
             // Clear input.
@@ -292,15 +315,7 @@ namespace Platformer
             AccelerometerState accelState,
             DisplayOrientation orientation)
         {
-            //override digital if touch input is found
-            // Process touch locations.
             bool touchJump = false;
-
-            //#if FakeAccelerometer
-            //            touchJump = Accelerometer.GetState().IsJumping;
-            //#endif
-            //get the state of the touch panel
-            //TouchCollection curTouches = TouchPanel.GetState();
 
             movement = 0.0f;
             // Process touch locations
@@ -356,52 +371,7 @@ namespace Platformer
             //  if (Math.Abs(movement) < 0.5f)
             movement = 0.0f;
 
-            //if (fingerX != 0)
-            //{
-            //    if (fingerX >= Position.X)
-            //    {
-            //        //esquerda = false;
-            //        movement = 1.0f;
-            //    }
-            //    else
-            //    {
-            //        //esquerda = true;
-            //        movement = -1.0f;
-            //    }
-            //}
-            //if (pressed)
-            //{
-            //    if (fingerX != 0)
-            //    {
-            //        if (fingerX >= Position.X)
-            //        {
-
-            //            movement = 1.0f;
-            //        }
-            //        else
-            //        {
-
-            //            movement = -1.0f;
-            //        }
-            //    }
-            //}
-            //else
-            //{
-            //    if (fingerX != 0)
-            //    {
-            //        if (fingerX >= Position.X)
-            //        {
-
-            //            movement = 1.0f;
-            //        }
-            //        else
-            //        {
-
-            //            movement = -1.0f;
-            //        }
-            //    }
-            //}
-
+          
             if (fingerX != 0)
             {
                 if (fingerX >= Position.X)
@@ -516,7 +486,7 @@ namespace Platformer
                 {
                     // Reached the apex of the jump and has double jumps
                     // Irá ter duplo pulo quando tiver com a reliquia magica.
-                    if (velocityY > -MaxFallSpeed * 0.5f && !wasJumping && numberOfJumps < 1 && IsPoweredUp)
+                    if (velocityY > -MaxFallSpeed * 0.5f && !wasJumping && numberOfJumps < 1 && false )
                     {
                         velocityY =
                             JumpLaunchVelocity * (0.5f - (float)Math.Pow(jumpTime / MaxJumpTime, JumpControlPower));
@@ -701,27 +671,39 @@ namespace Platformer
                 flip = SpriteEffects.None;
 
             // Calculate a tint color based on power up state.
-            Color color;
+            Color color = Color.White;
             if (IsPoweredUp)
             {
                 float t = ((float)gameTime.TotalGameTime.TotalSeconds + powerUpTime / MaxPowerUpTime) * 20.0f;
+                
                 int colorIndex = (int)t % poweredUpColors.Length;
                 color = poweredUpColors[colorIndex];
             }
-            else
+            else if (!IsPoweredDown)
             {
                 color = Color.White;
             }
 
+            if (IsPoweredDown)
+            {
+                float t = ((float)gameTime.TotalGameTime.TotalSeconds + powerDownTime / MaxPowerDownTime) * 20.0f;
+                int colorIndex = (int)t % poweredDownColors.Length;
+                color = poweredDownColors[colorIndex];
+            }
+            else if(!IsPoweredUp)
+            {
+                color = Color.White;
+            }
 
             // Draw that sprite.
-            sprite.Draw(gameTime, spriteBatch, Position, flip);//, color);
+            sprite.Draw(gameTime, spriteBatch, Position, flip,color);//, color);
         }
 
 
         public void PowerUp()
         {
-            isPowerDown = true;
+            //isPoweredDown = true;
+            powerDownTime = 0;
             powerUpTime = MaxPowerUpTime;
             powerUpSound.Play();
             //MediaPlayer.Play(powerUpSound);
@@ -746,8 +728,11 @@ namespace Platformer
 
         internal void PowerDown()
         {
+            powerUpTime = 0;
+            powerDownTime = MaxPowerDownTime;
             //throw new NotImplementedException();
-            isPowerDown = true;
+           // isPoweredDown = true;
         }
+
     }
 }
