@@ -1,0 +1,6 @@
+D:\Projeto Mobile\projetomobile\Platformer\EasyStorage\bin\Windows Phone\Release\EasyStorage.dll
+D:\Projeto Mobile\projetomobile\Platformer\EasyStorage\bin\Windows Phone\Release\EasyStorage.pdb
+D:\Projeto Mobile\projetomobile\Platformer\EasyStorage\obj\Windows Phone\Release\ResolveAssemblyReference.cache
+D:\Projeto Mobile\projetomobile\Platformer\EasyStorage\obj\Windows Phone\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Projeto Mobile\projetomobile\Platformer\EasyStorage\obj\Windows Phone\Release\EasyStorage.dll
+D:\Projeto Mobile\projetomobile\Platformer\EasyStorage\obj\Windows Phone\Release\EasyStorage.pdb
