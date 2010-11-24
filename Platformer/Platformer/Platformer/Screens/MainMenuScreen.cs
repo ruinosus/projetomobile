@@ -32,7 +32,7 @@ namespace Platformer
             // Create our menu entries.
             MenuEntry playGameMenuEntry = new MenuEntry("Novo Jogo");
             MenuEntry loadMenuEntry = new MenuEntry("Carregar");
-            MenuEntry gamby = new MenuEntry("");
+            MenuEntry space = new MenuEntry("");
 
             // Hook up menu event handlers.
             playGameMenuEntry.Selected += PlayGameMenuEntrySelected;
@@ -40,9 +40,9 @@ namespace Platformer
 
             // Add entries to the menu.
           
-            MenuEntries.Add(gamby);
-            MenuEntries.Add(gamby);       
-            MenuEntries.Add(gamby);
+            MenuEntries.Add(space);
+            MenuEntries.Add(space);       
+            MenuEntries.Add(space);
             MenuEntries.Add(playGameMenuEntry);
             MenuEntries.Add(loadMenuEntry);
         }

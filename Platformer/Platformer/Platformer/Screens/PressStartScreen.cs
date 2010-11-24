@@ -4,82 +4,100 @@ using Microsoft.Xna.Framework.Input;
 using EasyStorage;
 using Microsoft.Xna.Framework.Input.Touch;
 using Platformer.SaveGame;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Phone.Tasks;
+using System;
+using System.IO.IsolatedStorage;
+using System.IO;
+
 
 namespace Platformer
 {
     class PressStartScreen : MenuScreen
     {
-        IAsyncSaveDevice saveDevice;
+
+        //Video vid;
+      
 
         public PressStartScreen()
             : base("")
         {
-            MenuEntry startMenuEntry = new MenuEntry("Inicio");
+            //ContentManager content = new VideoContentManager(ScreenManager.Game.Services);
+            //vid= content.Load<Video>("Videos/intro");
+            //vid.Loop = true; //or false
+            //vid.Play();
+
+            MenuEntry startMenuEntry = new MenuEntry("Iniciar");
+            MenuEntry space = new MenuEntry("");
+          
+            // Add entries to the menu.
+
+            MenuEntries.Add(space);
+
             startMenuEntry.Selected += StartMenuEntrySelected;
+
+            MenuEntries.Add(space);
+            MenuEntries.Add(space);
+            MenuEntries.Add(space);
             MenuEntries.Add(startMenuEntry);
         }
 
+        //public override void LoadContent()
+        //{
+        //    base.LoadContent();
+        //    MediaPlayerLauncher mpl = new MediaPlayerLauncher();
+        //    mpl.Controls = MediaPlaybackControls.None;
+        //    mpl.Location = MediaLocationType.Install;
+        //    mpl.Media = new Uri(@"Content\Videos\intro.wmv", UriKind.Relative);
+        //    mpl.Show();
+        //}
+
         void StartMenuEntrySelected(object sender, PlayerIndexEventArgs e)
         {
-            PromptMe();
+            ScreenManager.AddScreen(new MainMenuScreen(), e.PlayerIndex);
         }
 
-        private void PromptMe()
+        /// <summary>
+        /// When the user cancels the main menu, we exit the game.
+        /// </summary>
+        protected override void OnCancel(PlayerIndex playerIndex)
         {
-            // we can set our supported languages explicitly or we can allow the
-            // game to support all the languages. the first language given will
-            // be the default if the current language is not one of the supported
-            // languages. this only affects the text found in message boxes shown
-            // by EasyStorage and does not have any affect on the rest of the game.
-            EasyStorageSettings.SetSupportedLanguages(Language.French, Language.Spanish);
-
-            // on Windows Phone we use a save device that uses IsolatedStorage
-            // on Windows and Xbox 360, we use a save device that gets a 
-            //shared StorageDevice to handle our file IO.
-#if WINDOWS_PHONE
-            saveDevice = new IsolatedStorageSaveDevice();
-            Global.SaveDevice = saveDevice;
-
-            // we use the tap gesture for input on the phone
-            TouchPanel.EnabledGestures = GestureType.Tap;
-#else
-            // create and add our SaveDevice
-            SharedSaveDevice sharedSaveDevice = new SharedSaveDevice();
-            ScreenManager.Game.Components.Add(sharedSaveDevice);
-
-            // make sure we hold on to the device
-            saveDevice = sharedSaveDevice;
-
-            // hook two event handlers to force the user to choose a new device if they cancel the
-            // device selector or if they disconnect the storage device after selecting it
-            sharedSaveDevice.DeviceSelectorCanceled += 
-                (s, e) => e.Response = SaveDeviceEventResponse.Force;
-            sharedSaveDevice.DeviceDisconnected += 
-                (s, e) => e.Response = SaveDeviceEventResponse.Force;
-
-            // prompt for a device on the first Update we can
-            sharedSaveDevice.PromptForDevice();
-
-            sharedSaveDevice.DeviceSelected += (s, e) =>
-            {
-                //Save our save device to the global counterpart, so we can access it
-                //anywhere we want to save/load
-                Global.SaveDevice = (SaveDevice)s;
-
-                //Once they select a storage device, we can load the main menu.
-                //You'll notice I hard coded PlayerIndex.One here. You'll need to 
-                //change that if you plan on releasing your game. I linked to an
-                //example on how to do that but here's the link if you need it.
-                //http://blog.nickgravelyn.com/2009/03/basic-handling-of-multiple-controllers/
-                ScreenManager.AddScreen(new MainMenuScreen(), PlayerIndex.One);
-            };
-#endif
-
-#if XBOX
-            // add the GamerServicesComponent
-            ScreenManager.Game.Components.Add(
-                new Microsoft.Xna.Framework.GamerServices.GamerServicesComponent(ScreenManager.Game));
-#endif
+            ScreenManager.Game.Exit();
         }
+
+        //public override void Draw(GameTime gameTime)
+        //{
+        //    // This game has a blue background. Why? Because!
+        //    ScreenManager.GraphicsDevice.Clear(ClearOptions.Target,
+        //                                       Color.CornflowerBlue, 0, 0);
+        //    SpriteBatch spriteBatch = ScreenManager.SpriteBatch;
+
+        //    //if (vid.IsPlaying)
+        //    //{
+        //    //    spriteBatch.Begin();
+        //    //    spriteBatch.Draw(vid.CurrentTexture, new Vector2(10, 10), Color.White);
+        //    //    spriteBatch.End();
+        //    //}
+            
+        //    if (TransitionPosition > 0)
+        //        ScreenManager.FadeBackBufferToBlack(255 - TransitionAlpha);
+        //}
+
+    
+        /// <summary>
+        /// Updates the state of the game. This method checks the GameScreen.IsActive
+        /// property, so the game will stop updating when the pause menu is active,
+        /// or if you tab away to a different application.
+        /// </summary>
+        //public override void Update(GameTime gameTime, bool otherScreenHasFocus,
+        //                                               bool coveredByOtherScreen)
+        //{
+        //    base.Update(gameTime, otherScreenHasFocus, coveredByOtherScreen);
+
+        //    if (IsActive)
+        //    {
+        //        //vid.Update();
+        //    }
+        //}
     }
 }

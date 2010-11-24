@@ -29,6 +29,31 @@ namespace Platformer.SaveGame
         public static int Lives;
         public static int ActualLevel;
         public static bool IsLoaded;
-        
+
+        /*
+         
+         . get the latest version: http://www.codeplex.com/ScurvyMedia/Release/ProjectReleases.aspx
+2. Add a Scurvy.Media.Pipeline reference to the project's nested content project
+3. Add a reference from your game, to Scurvy.Media.dll
+4. Add your .avi video to your XNA Game Studio 3.0 project, it should default to the scurvy media importer and processor.
+5. Important In your game, declare a new VideoContentManager, and load your video using that:
+ContentManager content = new VideoContentManager(Services);
+Video vid = content.Load<Video>("myVideo");
+vid.Loop = true; //or false
+vid.Play();
+
+6. Call the video's update method in the game's update method:
+vid.Update();
+
+7. In the game's render method, render the video's current texture using whatever means you choose. This example will let you render it using a sprite batch:
+if (vid.IsPlaying)
+{
+  batch.Begin();
+  batch.Draw(vid.CurrentTexture, new Vector2(10, 10), Color.White);
+  batch.End();
+}
+
+         */
+
     }
 }
