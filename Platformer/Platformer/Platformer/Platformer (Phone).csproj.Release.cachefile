@@ -48,6 +48,7 @@ Content\Sprites\MonsterD\Die.xnb
 Content\Fonts\Hud.xnb
 Content\Scenes\gamefont.xnb
 Content\Scenes\menufont.xnb
+Content\Videos\intro.xnb
 Content\Sounds\ExitReached.xnb
 Content\Sounds\GemCollected.xnb
 Content\Sounds\MonsterKilled.xnb
@@ -56,9 +57,8 @@ Content\Sounds\PlayerFall.xnb
 Content\Sounds\PlayerJump.xnb
 Content\Sounds\PlayerKilled.xnb
 Content\Sounds\Powerup.xnb
-Content\Videos\intro.xnb
-Content\Sounds\Music.wma
 Content\Videos\intro.wmv
+Content\Sounds\Music.wma
 Content\Levels\2.txt
 Content\Levels\0.txt
 Content\Levels\1.txt
