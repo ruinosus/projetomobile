@@ -217,3 +217,18 @@ C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\
 C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\obj\Windows Phone\Debug\WMAppManifest.xml
 C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Platformer.xap
 C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\Intro.xnb
+C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\Intro2.xnb
+C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\Intro3.xnb
+C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\Intro4.xnb
+C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\GameIntro.xnb
+C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\GameIntro2.xnb
+C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\GameIntro3.xnb
+C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\GameIntro4.xnb
+C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Content\Scenes\GameIntro5.xnb
+C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\Platformer.xap
+C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Platformer\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\GameThumbnail.png

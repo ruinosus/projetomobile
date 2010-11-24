@@ -59,7 +59,7 @@ namespace Platformer
         void PlayGameMenuEntrySelected(object sender, PlayerIndexEventArgs e)
         {
             LoadingScreen.Load(ScreenManager, true, e.PlayerIndex,
-                               new GameplayScreen());
+                               new GameIntroScreen());
         }
 
 
@@ -71,7 +71,7 @@ namespace Platformer
             LoadGame();
             LoadingScreen.Load(ScreenManager, true, e.PlayerIndex,
                               new GameplayScreen());
-            //ScreenManager.AddScreen(new OptionsMenuScreen(), e.PlayerIndex);
+           
         }
 
 
