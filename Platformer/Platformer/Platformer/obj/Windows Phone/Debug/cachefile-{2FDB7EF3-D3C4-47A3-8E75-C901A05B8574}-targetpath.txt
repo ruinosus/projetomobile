@@ -57,6 +57,15 @@ Content\Sounds\PlayerFall.xnb
 Content\Sounds\PlayerJump.xnb
 Content\Sounds\PlayerKilled.xnb
 Content\Sounds\Powerup.xnb
+Content\Scenes\Intro.xnb
+Content\Scenes\Intro2.xnb
+Content\Scenes\Intro3.xnb
+Content\Scenes\Intro4.xnb
+Content\Scenes\GameIntro.xnb
+Content\Scenes\GameIntro2.xnb
+Content\Scenes\GameIntro3.xnb
+Content\Scenes\GameIntro4.xnb
+Content\Scenes\GameIntro5.xnb
 Content\Levels\2.txt
 Content\Levels\0.txt
 Content\Levels\1.txt

@@ -92,6 +92,9 @@ namespace Platformer
         /// </summary>
         public override void Draw(GameTime gameTime)
         {
+            // This game has a blue background. Why? Because!
+            ScreenManager.GraphicsDevice.Clear(ClearOptions.Target,
+                                               Color.CornflowerBlue, 0, 0);
             SpriteBatch spriteBatch = ScreenManager.SpriteBatch;
             Viewport viewport = ScreenManager.GraphicsDevice.Viewport;
             Rectangle fullscreen = new Rectangle(0, 0, viewport.Width, viewport.Height);
