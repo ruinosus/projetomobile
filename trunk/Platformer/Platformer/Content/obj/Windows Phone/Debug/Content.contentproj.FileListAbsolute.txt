@@ -1,2 +1,3 @@
 C:\Users\Obscurus\Desktop\Platformer\Platformer\Content\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
 C:\Projetos Visual Studio Mobile\projetomobile\Platformer\Platformer\Content\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+D:\Projeto Mobile\projetomobile\Platformer\Platformer\Content\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
