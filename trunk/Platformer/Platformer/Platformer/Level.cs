@@ -29,7 +29,9 @@ namespace Platformer
     {
         // Physical structure of the level.
         private Tile[,] tiles;
-        private Layer[] layers;
+        //private Layer[] layers;
+        private Texture2D[] layers;
+        public bool Fim{ get; set; }
 
         // The layer which entities are drawn on top of.
         private const int EntityLayer = 2;
@@ -108,10 +110,18 @@ namespace Platformer
 
             // Load background layer textures. For now, all levels must
             // use the same backgrounds and only use the left-most part of them.
-            layers = new Layer[3];
-            layers[0] = new Layer(Content, "Backgrounds/Layer0", 0.2f);
-            layers[1] = new Layer(Content, "Backgrounds/Layer1", 0.5f);
-            layers[2] = new Layer(Content, "Backgrounds/Layer2", 0.8f);
+            //layers = new Layer[3];
+            //layers[0] = new Layer(Content, "Backgrounds/Layer0", 0.2f);
+            //layers[1] = new Layer(Content, "Backgrounds/Layer1", 0.5f);
+            //layers[2] = new Layer(Content, "Backgrounds/Layer2", 0.8f);
+
+            layers = new Texture2D[3];
+            for (int i = 0; i < layers.Length; ++i)
+            {
+                // Choose a random segment if each background layer for level variety.
+                int segmentIndex = levelIndex;
+                layers[i] = Content.Load<Texture2D>("Backgrounds/Layer" + i + "_" + segmentIndex);
+            }
 
             // Load sounds.
             exitReachedSound = Content.Load<SoundEffect>("Sounds/ExitReached");
@@ -241,6 +251,18 @@ namespace Platformer
                 // Impassable block
                 case '#':
                     return LoadVarietyTile("BlockA", 7, TileCollision.Impassable);
+
+                // Impassable block
+                case '0':
+                    return LoadVarietyTile("BlockC", 1, TileCollision.Impassable);
+
+                // Impassable block
+                case '9':
+                    return LoadVarietyTile("BlockD", 1, TileCollision.Impassable);
+
+                // Impassable block
+                case '8':
+                    return LoadVarietyTile("BlockE", 1, TileCollision.Impassable);
 
                 // Unknown tile type character
                 default:
@@ -582,8 +604,10 @@ namespace Platformer
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             spriteBatch.Begin();
+            //for (int i = 0; i <= EntityLayer; ++i)
+            //    layers[i].Draw(spriteBatch, cameraPositionXAxis);
             for (int i = 0; i <= EntityLayer; ++i)
-                layers[i].Draw(spriteBatch, cameraPositionXAxis);
+                spriteBatch.Draw(layers[i], Vector2.Zero, Color.White);
             spriteBatch.End();
 
             ScrollCamera(spriteBatch.GraphicsDevice.Viewport);
@@ -606,8 +630,10 @@ namespace Platformer
             spriteBatch.End();
 
             spriteBatch.Begin();
-            for (int i = EntityLayer + 1; i < layers.Length; ++i)
-                layers[i].Draw(spriteBatch, cameraPositionXAxis);
+            //for (int i = EntityLayer + 1; i < layers.Length; ++i)
+            //    layers[i].Draw(spriteBatch, cameraPositionXAxis);
+             for (int i = EntityLayer + 1; i < layers.Length; ++i)
+                spriteBatch.Draw(layers[i], Vector2.Zero, Color.White);
             spriteBatch.End();
         }
 

@@ -13,14 +13,11 @@ using System.IO;
 
 namespace Platformer
 {
-    class GameIntroScreen : MenuScreen
+    class EndScreen : MenuScreen
     {
         private Texture2D image1;
-        private Texture2D image2;
-        private Texture2D image3;
-        private Texture2D image4;
-        private Texture2D image5;
-        private Texture2D image6;
+        //private Texture2D image2;
+        //private Texture2D image3;
         private Texture2D ActualImage;
         private ContentManager content;
 
@@ -42,18 +39,15 @@ namespace Platformer
             if (content == null)
                 content = ScreenManager.Game.Content;
             Vector2 position = new Vector2(0, 0);
-
-            this.image1 = content.Load<Texture2D>("Scenes/GameIntro");// new CustomImage(content.Load<Texture2D>("Scenes/Intro"), position, this.imageSize / 2, this.storedTimer);
+            ActualImage = content.Load<Texture2D>("Scenes/End");
+            this.image1 = content.Load<Texture2D>("Scenes/End");// new CustomImage(content.Load<Texture2D>("Scenes/Intro"), position, this.imageSize / 2, this.storedTimer);
             // position.X += this.ScreenSize.X / 2;
 
-            this.image2 = content.Load<Texture2D>("Scenes/GameIntro2");// new CustomImage(content.Load<Texture2D>("Scenes/Intro2"), position, this.imageSize / 2, this.storedTimer);
-            this.image3 = content.Load<Texture2D>("Scenes/GameIntro3");
-            this.image4 = content.Load<Texture2D>("Scenes/GameIntro4");
-            this.image5 = content.Load<Texture2D>("Scenes/GameIntro5");
-            this.image6 = content.Load<Texture2D>("Scenes/GameIntro6");
+            //this.image2 = content.Load<Texture2D>("Scenes/Intro2");// new CustomImage(content.Load<Texture2D>("Scenes/Intro2"), position, this.imageSize / 2, this.storedTimer);
+            //this.image3 = content.Load<Texture2D>("Scenes/Intro3");
         }
 
-        public GameIntroScreen()
+        public EndScreen()
             : base("")
         {
 
@@ -91,15 +85,14 @@ namespace Platformer
             SpriteBatch spriteBatch = ScreenManager.SpriteBatch;
             Viewport viewport = ScreenManager.GraphicsDevice.Viewport;
             Rectangle fullscreen = new Rectangle(0, 0, viewport.Width, viewport.Height);
-            if (ActualImage != null)
-            {
-                spriteBatch.Begin();
 
-                spriteBatch.Draw(ActualImage, fullscreen,
-                                 new Color(TransitionAlpha, TransitionAlpha, TransitionAlpha));
+            spriteBatch.Begin();
 
-                spriteBatch.End();
-            }
+            spriteBatch.Draw(ActualImage, fullscreen,
+                             new Color(TransitionAlpha, TransitionAlpha, TransitionAlpha));
+
+            spriteBatch.End();
+
             if (TransitionPosition > 0)
                 ScreenManager.FadeBackBufferToBlack(255 - TransitionAlpha);
         }
@@ -123,26 +116,17 @@ namespace Platformer
                 storedTimer += elapsed;
                 if (storedTimer < 7)
                     ActualImage = image1;
-                else
-                    if (storedTimer >= 7 && storedTimer < 14)
-                        ActualImage = image2;
-                    else
-                        if (storedTimer >= 14 && storedTimer < 21)
-                            ActualImage = image3;
+                //else
+                //    if (storedTimer >= 7 && storedTimer < 14)
+                //        ActualImage = image2;
+                //    else
+                //        if (storedTimer >= 14 && storedTimer < 21)
+                //            ActualImage = image3;
                         else
-                            if (storedTimer >= 21 && storedTimer < 28)
-                                ActualImage = image4;
-                            else
-                                if (storedTimer >= 28 && storedTimer < 35)
-                                    ActualImage = image5;
-                                else
-                                    if (storedTimer >= 35 && storedTimer < 42)
-                                    ActualImage = image6;
-                                        else
-                                        {
-                                            LoadingScreen.Load(ScreenManager, true, PlayerIndex.One,
-                                              new GameplayScreen());
-                                        }
+                        {
+                            LoadingScreen.Load(ScreenManager, false, null, new BackgroundScreen(),
+                                                                                   new MainMenuScreen());
+                        }
             }
         }
 
