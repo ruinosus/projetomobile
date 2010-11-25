@@ -92,7 +92,7 @@ namespace Platformer
             TransitionOnTime = TimeSpan.FromSeconds(1.5);
             TransitionOffTime = TimeSpan.FromSeconds(0.5);
 
-             Accelerometer.Initialize();
+            Accelerometer.Initialize();
 
         }
 
@@ -168,6 +168,7 @@ namespace Platformer
                 Global.Score = this.score;
                 Global.Lives = level.Player.Lives;
                 Global.ActualLevel = levelIndex;
+                
                 //Global.saveData.lives = level.Player.Lives;
                 //Global.saveData.score = level.Player.Score;
                 //  base.Update(gameTime);
@@ -302,9 +303,16 @@ namespace Platformer
 
         private void LoadNextLevel()
         {
-             // move to the next level
+            // move to the next level
+            if (levelIndex + 1 == numberOfLevels)
+            {
+                LoadingScreen.Load(ScreenManager, true, PlayerIndex.One,
+                                             new EndScreen());
+                //return;
+            }
+           
             levelIndex = (levelIndex + 1) % numberOfLevels;
-
+           
             // Unloads the content for the current level before loading the next one.
             if (level != null)
                 level.Dispose();
@@ -315,10 +323,11 @@ namespace Platformer
             {
                 if (Global.IsLoaded)
                 {
-                     level = new Level(serviceProvider, fileStream, Global.ActualLevel, Global.Score, Global.Lives);
-                   
+                    level = new Level(serviceProvider, fileStream, Global.ActualLevel, Global.Score, Global.Lives);
+
                     Global.IsLoaded = false;
-                }else
+                }
+                else
                     level = new Level(serviceProvider, fileStream, levelIndex, score, lives);
             }
         }
@@ -339,7 +348,7 @@ namespace Platformer
 
             // Draw time remaining. Uses modulo division to cause blinking when the
             // player is running out of time.
-            string timeString = "TIME: " + level.TimeRemaining.Minutes.ToString("00") + ":" + level.TimeRemaining.Seconds.ToString("00");
+            string timeString = "TEMPO: " + level.TimeRemaining.Minutes.ToString("00") + ":" + level.TimeRemaining.Seconds.ToString("00");
             Color timeColor;
             if (level.TimeRemaining > WarningTime ||
                 level.ReachedExit ||
@@ -355,9 +364,9 @@ namespace Platformer
 
             // Draw score
             float timeHeight = hudFont.MeasureString(timeString).Y;
-            string score = "SCORE: " + level.Score.ToString();
+            string score = "PONTOS: " + level.Score.ToString();
             DrawShadowedString(hudFont, score, hudLocation + new Vector2(0.0f, timeHeight * 1.2f), Color.Yellow);
-            string lifeString = "LIFE: " + level.Player.Lives;
+            string lifeString = "VIDA: " + level.Player.Lives;
             DrawShadowedString(hudFont, lifeString, hudLocation + new Vector2(0.0f, timeHeight * 2.4f), Color.Red);
 
             // Determine the status overlay message to show.

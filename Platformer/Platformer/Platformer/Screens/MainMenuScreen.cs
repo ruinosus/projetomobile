@@ -40,9 +40,7 @@ namespace Platformer
 
             // Add entries to the menu.
           
-            MenuEntries.Add(space);
             MenuEntries.Add(space);       
-            MenuEntries.Add(space);
             MenuEntries.Add(playGameMenuEntry);
             MenuEntries.Add(loadMenuEntry);
         }
